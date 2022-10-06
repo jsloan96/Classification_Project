@@ -1,7 +1,7 @@
 # Classification_Project
 https://jeremy-sloan.com/2022/09/30/project-2-classification/
 
-Introduction
+# Introduction
 
 In the Machine Learning terminology, the process of Classification can be defined as a supervised learning algorithm that aims at categorizing a set of data into different classes. In other words, if we think of a data set as a set of data instances, and each data instance as a set of features, then Classification is the process of predicting the particular class that that individual data instance might belong to, based on its features. There are many applications in classification in many domains such as in credit approval, medical diagnosis, target marketing etc.
 
@@ -11,12 +11,12 @@ Unlike regression where the target variable (i.e., the predicted value) belongs 
 
 This project will use the Drug Classification data set available on Kaggle to demonstrate 7 different machine learning categorical models.
 
-    Logistic Regression
-    K-Nearest Neighbor
-    Support Vector Machine (SVM)
-    1 Categorical Naive Bayes
-    2 Gaussian Naive Bayes
-    Decision Tree
-    Random Forest
+- Logistic Regression
+- K-Nearest Neighbor
+- Support Vector Machine (SVM)
+- 1 Categorical Naive Bayes
+- 2 Gaussian Naive Bayes
+- Decision Tree
+- Random Forest
 
 Because the Drug Classification data set contains information on 4 different drugs, we will be using multi-label Classification. Multi-Label Classification – As the name suggests, the prediction for a data instance can be more than 2 possible discrete outcomes. For example, when predicting the correct drug a patient is taking, a given data instance representing a patient can belong to any one of the 4 classes.The target feature of the data set is Drug type and the feature sets are Age, Sex, Blood Pressure, Cholesterol Levels, and Na to Potassium Levels.
